@@ -1,5 +1,5 @@
-Sourav_tile_090
-1)
+//Sourav_tile_090
+//1)
 echo "Please enter a number:"
 read number
 if (( $number % 2 == 0 ))
@@ -9,7 +9,7 @@ else
   echo "The number $number is odd."
 fi
 
-2)
+//2)
 echo "Please enter a number:"
 read number
 factorial=1
@@ -19,7 +19,7 @@ do
 done
 echo "The factorial of $number is $factorial"
 
-3)
+//3)
 echo "Please enter three numbers:"
 read num1
 read num2
@@ -35,7 +35,7 @@ else
 fi
 
 
-4)
+//4)
 echo "Please enter a string:"
 read str
 rev_str=$(echo "$str" | rev)
@@ -46,7 +46,7 @@ else
   echo "The string is not a palindrome."
 fi
 
-5)
+//5)
 echo "Please enter the number of terms:"
 read n
 a=0
@@ -61,8 +61,7 @@ do
 done
 echo
 
-6)
-
+//6)
 echo "Please enter a number:"
 read number
 is_prime=1
@@ -81,7 +80,7 @@ else
   echo "The number $number is not prime."
 fi
 
-7)
+//7)
 echo "Please enter a number:"
 read number
 echo "The multiplication table of $number is:"
@@ -90,7 +89,7 @@ do
   echo "$number * $i = $((number * i))"
 done
 
-8)
+//8)
 echo "Please enter a number:"
 read number
 sum=0
@@ -100,8 +99,7 @@ do
 done
 echo "The sum of all even numbers between 1 and $number is $sum."
 
-9)
-
+//9)
 echo "Please enter a number:"
 read number
 sum=0
@@ -111,15 +109,13 @@ do
 done
 echo "The sum of all natural numbers from 1 to $number is $sum."
 
-
-10)
+//10)
 echo "Please enter a number:"
 read number
 rev_number=$(echo "$number" | rev)
 echo "The reverse of $number is $rev_number."
 
-
-11)
+//11)
 echo "Please enter the directory:"
 read directory
 echo "Please enter the file name:"
@@ -131,7 +127,7 @@ else
   echo "The file $filename does not exist in the directory $directory."
 fi
 
-12)
+//12)
 echo "Please enter a number:"
 read number
 factorial=1
