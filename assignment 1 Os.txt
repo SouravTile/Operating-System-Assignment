@@ -19,20 +19,7 @@ do
 done
 echo "The factorial of $number is $factorial"
 
-//3)
-echo "Please enter three numbers:"
-read num1
-read num2
-read num3
-if (( num1 >= num2 && num1 >= num3 ))
-then
-  echo "The largest number is $num1."
-elif (( number2 >= number1 && num2 >= num3 ))
-then
-  echo "The largest number is $num2."
-else
-  echo "The largest number is $num3."
-fi
+
 
 
 //4)
@@ -60,6 +47,21 @@ do
   b=$fn
 done
 echo
+
+//3)
+echo "Please enter three numbers:"
+read num1
+read num2
+read num3
+if (( num1 >= num2 && num1 >= num3 ))
+then
+  echo "The largest number is $num1."
+elif (( number2 >= number1 && num2 >= num3 ))
+then
+  echo "The largest number is $num2."
+else
+  echo "The largest number is $num3."
+fi
 
 //6)
 echo "Please enter a number:"
