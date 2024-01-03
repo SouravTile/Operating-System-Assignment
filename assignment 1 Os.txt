@@ -138,7 +138,6 @@ do
 done
 echo "The factorial of $number is $factorial."
 
-
 //13]
 echo "Please select an option:"
 echo "1. Display the date"
