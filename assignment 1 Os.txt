@@ -466,7 +466,6 @@ done
 29)
 Implement a script to list files by their size in a directory.
 
-
 30)
 #!/bin/bash
 echo "Enter the height of the inverted right triangle: "
