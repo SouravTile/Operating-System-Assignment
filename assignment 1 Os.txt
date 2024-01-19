@@ -9,7 +9,6 @@ else
   echo "The number $number is odd."
 fi
 
-
 //2]
 echo "Please enter a number:"
 read number
