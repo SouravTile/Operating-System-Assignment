@@ -19,6 +19,7 @@ do
 done
 echo "The factorial of $number is $factorial"
 
+
 //4]
 echo "Please enter a string:"
 read str
